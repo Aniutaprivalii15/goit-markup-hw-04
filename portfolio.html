@@ -40,10 +40,16 @@
             </nav>
             <ul class="header-contact list">
                 <li class="header-contact-item">
-                    <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com </a>
+                    <a href="mailto:info@devstudio.com" class="contact link">
+                        <svg class="header-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com </a>
                 </li>
                 <li class="header-contact-item">
-                    <a href="tel:+380961111111" class="contact link"> +38 096 111 11 11</a>
+                    <a href="tel:+380961111111" class="contact link">
+                        <svg class="header-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg> +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -75,7 +81,7 @@
                     </ul>
             
                     <ul class="portfolio-list card-set list">
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.technology.png" alt="Технокряк" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Технокряк</h2>
@@ -83,7 +89,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.poster.png" alt=" Постер New Orlean vs Golden Star" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Постер New Orlean vs Golden Star</h2>
@@ -91,7 +97,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.seafood.png" alt="Ресторан Seafood" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Ресторан Seafood</h2>
@@ -99,7 +105,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.project.prime.png" alt="Проект Prime" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Проект Prime</h2>
@@ -107,7 +113,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.project.box.png" alt="Проект Boxes" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Проект Boxes</h2>
@@ -115,7 +121,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.inspiration.png" alt="Inspiration has no Borders" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Inspiration has no Borders</h2>
@@ -123,7 +129,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.edition.png" alt="Издание Limited Edition" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Издание Limited Edition</h2>
@@ -131,7 +137,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.project.lab.png" alt="Проект LAB" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Проект LAB</h2>
@@ -139,7 +145,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="card-set-item">
+                        <li class="portfolio-iteam card-set-item">
                             <a class="link" rel="preconnect" href="/"><img src="./images/img.growing.business.png" alt="Growing Business" width="370" height="294">
                                 <div class="portfolio-wrapper">
                                     <h2 class="name-prj link">Growing Business</h2>
@@ -156,19 +162,53 @@
 
     <footer class="page-footer footer">
         <div class="container">
-            <a href="/" lang="en" class="logo-footer link">
-                <span>Web</span>Studio
-            </a>
-            <address class="footer-item address-footer">
-                г.Киев, пр-т Леси Украинки, 26
-            </address>
-        
-            <ul class="list">
-                <li class="footer-item">
-                    <a href="mailto:info@devstudio.com" class="contact-footer link">info@devstudio.com </a>
+            <ul class="footer-list list">
+                <li class="footer-iteam iteam">
+                    <a class="logo-footer link" href="/" lang="en"> <span>Web</span>Studio</a>
+            
+                    <address class="footer-address">
+                        <p class="footer-address-info">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer-contact-list list">
+                            <li class="footer-contact-iteam">
+                                <a class="footer-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="footer-contact-iteam">
+                                <a class="footer-contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
                 </li>
-                <li class="footer-item">
-                    <a href="tel:+380961111111" class="contact-footer link"> +38 096 111 11 11</a>
+                <li class="footer-iteam footer-soc iteam">
+                    <h3 class="footer-soc-title">присоединяйтесь</h3>
+                    <ul class="footer-soc-list list">
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg> </a>-
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-iteam">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
