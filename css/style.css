@@ -147,12 +147,9 @@ color: var(--accent-color);
     margin-right: 0;
 }
 .contact{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
 
     padding-top: 32px;
     padding-bottom: 32px;
@@ -162,7 +159,7 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--after-title-color);
-    fill: #757575;
+
 }
 .header-icon{
     margin-right: 10px;
@@ -223,9 +220,8 @@ color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    cursor: pointer;
 }
-.btn-clik:hover{
+.btn-clik:hover,.btn-clik:focus{
     background-color: #188ce8;
 }
 
@@ -316,6 +312,7 @@ color: var(--accent-color);
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 .name-colleague{
     font-weight: 500;
@@ -354,8 +351,7 @@ color: var(--accent-color);
     justify-content: center;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    cursor: pointer;
+
 }
 
 .team-soc-link:hover,
@@ -377,21 +373,26 @@ color: var(--accent-color);
     flex-basis: calc((100% - var(--indent) * var(--iteam)) / var(--iteam));
     margin: calc(var(--indent) / 2);
 }
+h2.regular-clients-title.main-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px; 
+}
 
 .regular-clients-list {
     --iteam: 6;
     --indent: 30px;
 }
 
-.regular-client-iteam {
-    fill: #afb1b8;
-}
 
 .regular-client-link {
     border: 1px solid #afb1b8;
     border-radius: 4px;
 
-    padding: 15px 30px;
+    height: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,7 +403,7 @@ color: var(--accent-color);
     fill: currentColor;
 }
 
-.regular-client-link:hover {
+.regular-client-link:hover,.regular-client-link:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
@@ -496,12 +497,11 @@ color: var(--accent-color);
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    cursor: pointer;
 
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,.footer-soc-link:focus {
     background-color: var(--accent-color);
 }
 
@@ -529,9 +529,8 @@ color: var(--accent-color);
     background-color: var(--background-iteam-color);
     border: none;
     border-radius: 4px;
-    cursor: pointer;
 }
-.filter-btn:hover{
+.filter-btn:hover,.filter-btn:focus{
     background-color: var(--accent-color);
     color: var(--second-title-color);
 }
@@ -544,10 +543,11 @@ color: var(--accent-color);
 .portfolio-iteam {
     --iteam: 3;
     --indent: 30px;
-    cursor: pointer;
+
 }
 
-.portfolio-iteam:hover {
+.portfolio-iteam:hover,.portfolio-iteam:focus {
+    display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
